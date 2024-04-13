@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>TV Series</title>
+    <style>
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        TV Series
+    </div>
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Channel</th>
+                <th>Seasons</th>
+            </tr>
+        </thead>
+        <tbody id="series-table-body">
+            <!-- Los datos de las series se insertarán aquí por main.js -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Incluye tu archivo main.js aquí como módulo -->
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
